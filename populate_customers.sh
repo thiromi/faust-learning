@@ -1,0 +1,5 @@
+faust -A hello_world send customer_became_lead '{"customer_id": 123, "business_unit": "DE", "timestamp": "2021-09-03T13:30:41Z"}'
+faust -A hello_world send customer_became_lead '{"customer_id": 124, "business_unit": "DE", "timestamp": "2021-09-03T13:30:42Z"}'
+faust -A hello_world send customer_subscribed '{"customer_id": 123, "business_unit": "DE", "timestamp": "2021-09-03T13:31:42Z"}'
+faust -A hello_world send customer_cancelled '{"customer_id": 123, "business_unit": "DE", "timestamp": "2021-09-03T13:32:42Z"}'
+faust -A hello_world send customer_subscribed '{"customer_id": 124, "business_unit": "DE", "timestamp": "2021-09-03T13:33:42Z"}'
